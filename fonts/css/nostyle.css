@@ -1,0 +1,122 @@
+﻿/*External font*/
+@font-face
+{
+    src:url("fonts/berlin sans fb");
+    font-family:new font;
+}
+.sportsimg
+{
+    height:200px;
+    width:200px;
+}
+
+/*Background video editing*/
+#video
+{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height:100%;
+    z-index:-10;
+}
+.mainpics
+{
+ align-items:center;
+height:400px;
+width:400px;
+}
+
+.secondarypics
+{
+align-items:center;
+height:400px;
+width:400px;
+}
+
+#maincontent, #secondarycontent
+{
+    margin:100px;
+    padding:0px;
+    background-color:#AAAAAA;
+}
+
+/*Giving the same background color to the contents*/
+#sportcontent, #contactcontent, #referralcontent
+{
+    background-color:#AAAAAA;
+}
+
+.heading {
+    text-align: center;
+}
+
+.header1 {
+    font-size: 60px;
+    font-family: 'new font's;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.header2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+    padding-bottom: 20px;
+}
+
+/*Editing the whole navigation bar(grey background, spacing the items, aligning, ...)*/
+.nav-links
+{
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+    justify-content:space-evenly;
+    width:100%;
+    align-items:center;
+}
+
+ 
+    .nav-links li 
+    {
+        display:flex;   
+        padding: 8px;
+        text-decoration: none;
+
+    }
+
+    .nav-links a 
+    {
+        color: white;
+        padding: 14px 16px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .nav-links > li > a:hover
+    {
+        background-color: #2699FB;
+    }
+
+aside
+{
+    margin: 10px;
+    width:300px;
+    position:relative;
+    float:right;
+}
+
+/*Aligning the contact side*/
+#contactcontent
+{
+margin-top:410px;
+font-size:20px;
+}
+
+
+
+
